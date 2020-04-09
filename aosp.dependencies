@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_kernel_google_marlin",
+    "repository": "kernel_google_marlin",
     "target_path": "kernel/google/marlin"
   }
 ]
