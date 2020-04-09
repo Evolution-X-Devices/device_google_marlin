@@ -673,3 +673,7 @@ PRODUCT_PACKAGES += \
 # Enforce privapp-permissions whitelist
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.control_privapp_permissions=disabled
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
