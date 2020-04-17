@@ -3,8 +3,8 @@
 # Product-specific compile-time definitions
 #
 
-# Allow Lineage config to override others
--include device/google/marlin/marlin/BoardConfigLineage.mk
+# Include Vendor BoardConfig
+-include vendor/google/marlin/BoardConfigVendor.mk
 
 TARGET_BOARD_PLATFORM := msm8996
 TARGET_BOOTLOADER_BOARD_NAME := marlin
