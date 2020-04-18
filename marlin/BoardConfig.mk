@@ -4,6 +4,7 @@
 #
 
 # Include Vendor BoardConfig
+include device/google/marlin/BoardConfigLineage.mk
 -include vendor/google/marlin/BoardConfigVendor.mk
 
 TARGET_BOARD_PLATFORM := msm8996
